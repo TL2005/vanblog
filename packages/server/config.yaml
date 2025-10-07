@@ -1,0 +1,13 @@
+database:
+  # 数据库连接
+  url: mongodb+srv://taolei:<zjx2005>@leiblog.8ke52e4.mongodb.net/leiblog?authSource=admin
+static:
+  # 图床等静态文件保存的位置
+  path: /var/vanblog-dev/static
+# 是否开启演示站模式，会限制很多权限
+demo: 'false'
+# waline 用的表名，会自动创建
+waline:
+  db: waline
+# 日志位置
+log: /var/vanblog-dev/logs
