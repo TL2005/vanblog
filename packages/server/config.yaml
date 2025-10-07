@@ -1,6 +1,6 @@
 database:
   # 数据库连接
-  url: mongodb+srv://taolei:<zjx2005>@leiblog.8ke52e4.mongodb.net/leiblog?authSource=admin
+  url: mongodb+srv://taolei:zjx2005@leiblog.8ke52e4.mongodb.net/leiblog?authSource=admin
 static:
   # 图床等静态文件保存的位置
   path: /var/vanblog-dev/static
